@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('Group 12.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: "FFF8F3";
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.content .buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.content .buttons a {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.btn-download {
+    background-color: orange;
+}
+
+.btn-contact {
+    background-color: #f9f9f9;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.sidebar {
+    position: absolute;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    left: 10px;
+    top: 0;
+    font-size: 80px;
+    color: #ccc;
+    transform: rotate(180deg);
+}
+
+.image {
+    flex-shrink: 0;
+}
+
+.image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li {
+    font-size: 14px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.header .hire-me {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
